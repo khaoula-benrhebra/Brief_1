@@ -36,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #f58326;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background: url('https://cdn.pixabay.com/photo/2023/10/10/05/52/website-8305451_1280.jpg') no-repeat center center/cover;
+    background: url('./images/Background.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 0;
@@ -266,11 +266,12 @@ footer p {
     font-size: 0.9em;
     color: #ccc;
 }
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    height: 100px;
 }
 @media screen and (max-width: 700px) {
     /* iframe{ 
